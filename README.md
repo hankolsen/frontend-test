@@ -18,3 +18,7 @@ Great, with that out of the way you realize there is yet another issue with the 
 The values in the form doesn't seem to be sent when the form is submitted, so the login page is basically useless. 
 How can you make the form values be submitted?
 
+---
+
+One more annoying thing about the login form is the "Remember me" checkbox. 
+In order to toggle the checkbox you have to click the tiny checkbox itself, wouldn't it be nicer if you could click the entire text "Remember me" too?
