@@ -1,2 +1,3 @@
-# 01 Form Submit
-There is a problem with the login form. For some reason the form doesn't submit. Can you fix the issue?
+# 02 Conceal the Password
+So the form is submitting as expected, however the company realizes that the password is sent in clear text in the URL. 
+Their ~~suggestion~~ order to you is to make sure that the password is sent backwards instead. Can you do that?
