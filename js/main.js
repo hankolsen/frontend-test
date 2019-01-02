@@ -1,6 +1,13 @@
-const handler = (event) => {
-  // YOUR CODE HERE
-  // Hint: It is ok to just console log the updated password value,
-  // but you get a gold star if you actually submit the form with the updated value.
+const formEl = document.querySelector('form');
+
+const submitHandler = (event) => {
+  event.preventDefault();
+  const passwordEl = document.querySelector('input[name=password]');
+  const password = passwordEl.value;
+  const reverse = password.split('').reverse().join('');
+  console.log(reverse);
+  passwordEl.value = reverse;
+  formEl.submit();
 };
 
+formEl.addEventListener('submit', submitHandler);
