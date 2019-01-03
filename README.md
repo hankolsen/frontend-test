@@ -11,7 +11,10 @@ Make the content vertically and horizontally centered using your favourite metho
 
 ---
 
-Angela gets a headache and needs to go home. You are looking at the centered login page, 
+Angela gets a text message and excuses herself, she mentions something about a white rose when she leaves the room. 
+Funny, it's not Valentine's Day today, is it? 
+
+You are looking at the centered login page, 
 and although it does look better, you have a feeling that it could be improved further.
 
 How would you go about to style the page if you were given no restrictions?
