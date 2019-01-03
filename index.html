@@ -9,16 +9,24 @@
 </head>
 
 <body>
-<img src="img/ecorp_logo.png"/>
-<form>
-    <label>Username</label>
-    <input type="text" name="username" /><br>
-    <label>Password</label>
-    <input type="password" name="password" /><br>
-    <input id="remember_cb" type="checkbox" name="remember" value="true">
-    <label for="remember_cb">Remember me</label>
-    <button type="submit">Login</button>
-</form>
+<div class="wrapper">
+    <img class="logo__img" src="img/ecorp_logo.png"/>
+    <form>
+        <div class="form__group">
+            <label>Username</label>
+            <input type="text" name="username" placeholder="Username"/>
+        </div>
+        <div class="form__group">
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Password"/>
+        </div>
+        <div class="form__group form__remember">
+            <input id="remember_cb" type="checkbox" name="remember" value="true">
+            <label for="remember_cb">Remember me</label>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</div>
 
 <script src="js/main.js"></script>
 </body>
