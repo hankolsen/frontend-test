@@ -5,9 +5,15 @@ const submitHandler = (event) => {
   const passwordEl = document.querySelector('input[name=password]');
   const password = passwordEl.value;
   const reverse = password.split('').reverse().join('');
-  console.log(reverse);
   passwordEl.value = reverse;
-  formEl.submit();
+  console.log(reverse);
+
+  const usernameEl = document.querySelector('input[name=username]');
+  const username = usernameEl.value;
+
+  if (isAuthenticated(username, password)) {
+    formEl.submit();
+  }
 };
 
 formEl.addEventListener('submit', submitHandler);
